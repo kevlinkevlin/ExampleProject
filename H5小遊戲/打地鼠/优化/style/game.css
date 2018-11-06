@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.title{
+    margin:20px auto;
+    text-align: center;
+}
+body {
+    font-size: 14px;
+    font-family:Arial,"微软雅黑","microsoft yahei";
+}
+
+#game_panel {
+    cursor: url('../images/chuizi.ico'), default;
+    position:relative;
+    margin:20px auto;
+}
+
+.box {
+    position:absolute;
+    border:1px solid #ccc;
+}
+.diglett_up {
+    position:absolute;
+    border:1px solid #ccc;
+    background: url("../images/up.jpg") no-repeat;
+    background-size: 100% 100%;
+}
+.diglett_down {
+    position:absolute;
+    border:1px solid #ccc;
+    background: url("../images/down.jpg") no-repeat;
+    background-size: 100% 100%;
+}
+.left {
+    position: absolute;
+    left: 50px;
+    top: 30px;
+    width:100px;
+    height:160px;
+    background: #ccc;
+    padding:10px 0 10px 0;
+}
+.left p {
+    text-align: center;
+}
+.right {
+    position: absolute;
+    width:230px;
+    height:500px;
+    background: #ccc;
+    right:150px;
+    top:80px;
+    padding:20px 0 20px 0;
+    text-align: center;
+}
+.right p {
+    text-align: center;
+}
+.right input {
+    background:lightskyblue;
+}
+#button {
+    display:block;
+    margin:0 auto;
+    width:100px;
+    height:30px;
+}

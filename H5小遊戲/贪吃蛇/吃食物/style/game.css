@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 14px;
+    font-family:Arial,"微软雅黑","microsoft yahei";
+}
+h1 {
+    display: block;
+    margin: 30px auto;
+    text-align: center;
+}
+
+#game_panel {
+    position:relative;
+    margin: 20px auto;
+}
+
+.box {
+    position:absolute;
+    border:1px solid #ccc;
+}
+.snake {
+    position:absolute;
+    background:red;
+    border:1px solid #ccc;
+}
+
+.food {
+    position:absolute;
+    background:blue;
+    border:1px solid #ccc;
+}
+.snakehead {
+    position:absolute;
+    background:green;
+    border:1px solid #ccc;
+}
